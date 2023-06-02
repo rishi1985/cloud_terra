@@ -4,7 +4,7 @@ provider "aws" {
   #secret_key = "AWS_SECRET_ACCESS_KEY_ID"
 }
 
-resource "aws_instance" "mac" {
+resource "aws_instance" "lacd" {
 ami = "ami-0715c1897453cabd1"
 instance_type = "t2.micro"
 }
